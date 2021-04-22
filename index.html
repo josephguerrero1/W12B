@@ -18,7 +18,32 @@
 
 <body>
 
-<script src='app.js'></script>
+    <div id="page-container">
+
+        <div id="form-container">
+
+            <form action="javascript:void(0)">
+                <h3>Title</h3>
+                <input type="text" id="post-title">
+                <h3>Post</h3>
+                <textarea id="post-content"></textarea>
+                <br>
+                <h3>Comments</h3>
+                <textarea id="post-comments"></textarea>
+                <br>
+                <input type="submit" value="POST" id="post-submit">
+            </form>
+            <h4 id="post-status"></h4>
+
+        </div>
+
+        <div id="posts-container">
+
+        </div>
+
+    </div>
+
+    <script src='app.js'></script>
 
 </body>
 
